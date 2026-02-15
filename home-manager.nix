@@ -5,7 +5,7 @@
   xdg.enable = true;
 
   imports = [
-    ./modules/neovim.nix
+    ./modules/nvim.nix
     ./modules/git.nix
     ./modules/jujutsu.nix
   ];
@@ -36,6 +36,7 @@
     ffmpeg
     # jq
     wget
+    tree
 
     zig
     go
