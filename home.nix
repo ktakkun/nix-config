@@ -10,20 +10,6 @@
     ./modules/jujutsu.nix
   ];
 
-  programs.git = {
-    enable = true;
-
-    ignores = [ ".DS_Store" ];
-
-    settings = {
-      init.defaultBranch = "main";
-      push.autoSetupRemote = true;
-      user = {
-        name = "ktakkun";
-        email = "9464677+ktakkun@users.noreply.github.com";
-      };
-    };
-  };
   home.packages = with pkgs; [
     tmux
     skim
