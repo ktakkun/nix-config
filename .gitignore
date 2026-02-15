@@ -1,0 +1,9 @@
+result
+result-*
+.direnv/
+.envrc
+.DS_Store
+
+# optional local-only overrides / secrets
+local.nix
+secrets.nix
